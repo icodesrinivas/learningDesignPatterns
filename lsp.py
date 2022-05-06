@@ -1,4 +1,95 @@
+# Example 1
+class VehicleCheck:
 
+    def check_wheels(self):
+        # Write some code to check wheels
+        wheel_status = 'Works Fine'
+        return wheel_status
+
+    def check_body(self):
+        # Write some code to check body
+        body_status = 'Works Fine'
+        return body_status
+
+    def check_engine(self):
+        # Write some code to check engine
+        engine_status = 'Works Fine'
+        return engine_status
+
+    def check_battery(self):
+        # Write some code to check battery
+        battery_status = 'Works Fine'
+        return battery_status
+
+class VehicleCheckWithoutEngine(VehicleCheck):
+
+    def check_wheels(self):
+        # Write some code to check wheels
+        wheel_status = 'Works Fine'
+        return wheel_status
+
+    def check_body(self):
+        # Write some code to check body
+        body_status = 'Works Fine'
+        return body_status
+
+class CarCheck(VehicleCheck):
+
+    def check_wheels(self):
+        # Write some code to check wheels
+        wheel_status = 'Works Fine'
+        return wheel_status
+
+    def check_body(self):
+        # Write some code to check body
+        body_status = 'Works Fine'
+        return body_status
+
+    def check_engine(self):
+        # Write some code to check engine
+        engine_status = 'Works Fine'
+        return engine_status
+
+    def check_battery(self):
+        # Write some code to check battery
+        battery_status = 'Works Fine'
+        return battery_status
+
+class BikeCheck(VehicleCheck):
+
+    def check_wheels(self):
+        # Write some code to check wheels
+        wheel_status = 'Works Fine'
+        return wheel_status
+
+    def check_body(self):
+        # Write some code to check body
+        body_status = 'Works Fine'
+        return body_status
+
+    def check_engine(self):
+        # Write some code to check engine
+        engine_status = 'Works Fine'
+        return engine_status
+
+    def check_battery(self):
+        # Write some code to check battery
+        battery_status = 'Works Fine'
+        return battery_status
+
+class CycleCheck(VehicleCheckWithoutEngine):
+    def check_wheels(self):
+        # Write some code to check wheels
+        wheel_status = 'Works Fine'
+        return wheel_status
+
+    def check_body(self):
+        # Write some code to check body
+        body_status = 'Works Fine'
+        return body_status
+
+
+# Example 2
 class Rectangle:
 
     def __init__(self, width, height):
@@ -53,3 +144,4 @@ use_it(rc)
 
 sq = Square(5)
 use_it(sq)
+
