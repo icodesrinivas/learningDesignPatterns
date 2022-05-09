@@ -1,3 +1,5 @@
+# Liskov Substitution Principle
+
 # Example 1
 class VehicleCheck:
 
